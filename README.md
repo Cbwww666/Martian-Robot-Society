@@ -40,4 +40,14 @@ Throughout your program, you may assume that no two DistrictLeaders have the sam
 ## Society class
 The Society class is responsible for keeping track of the head of the entire society (which is the root of the hierarchy), and providing operations that take the whole society into consideration. Most operations which involve accessing the citizens are done through the society class, such as adding a citizen to the society (when new robots are produced), removing one (when robots are deconstructed), or finding one with a specific citizen ID number.
 
+## Getting started
+1. Open society_hierarchy.py and familiarize yourself with the starter code.
+2. Open client_code.py: As you work through the assignment, you may look here to see how your methods and functions are used, and what they are expected to return.
+3. Run society_ui.py: While nothing will work at the moment, this will be one main way of interacting with your code. Of course you should be writing pytests, but you may find the interface helpful in debugging.
+
+## society_ui.py
+Running society_ui.py will provide you with an interface that will eventually look as follows:
+![image](https://github.com/Cbwww666/Martian-Robot-Society/assets/67548133/ce68b1fc-6887-4da6-ba10-62729048c4b0)
+
+
 
